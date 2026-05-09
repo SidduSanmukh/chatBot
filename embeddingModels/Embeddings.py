@@ -8,7 +8,7 @@ embedding = GoogleGenerativeAIEmbeddings(
     output_dimensionality=300
 )
 
-text = 'siddarooda samba sada shiva'
+text = 'something text which you want to conert as embeddings'
 
 response = embedding.embed_query(text)
 print(response)
